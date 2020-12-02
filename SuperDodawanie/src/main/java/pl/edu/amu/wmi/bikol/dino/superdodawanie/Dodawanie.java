@@ -12,7 +12,7 @@ package pl.edu.amu.wmi.bikol.dino.superdodawanie;
 public class Dodawanie {
     
     public String dodaj(String a, String b){
-        return "";
+        return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
     }
     
 }
