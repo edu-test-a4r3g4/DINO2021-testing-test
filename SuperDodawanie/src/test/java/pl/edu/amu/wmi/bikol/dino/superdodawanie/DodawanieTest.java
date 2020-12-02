@@ -47,7 +47,7 @@ public class DodawanieTest {
         String a = "1";
         String b = "1";
         Dodawanie instance = new Dodawanie();
-        String expResult = "2";
+        String expResult = "2.0";
         String result = instance.dodaj(a, b);
         assertEquals(expResult, result);
     }
@@ -58,7 +58,7 @@ public class DodawanieTest {
         String a = "0";
         String b = "0";
         Dodawanie instance = new Dodawanie();
-        String expResult = "0";
+        String expResult = "0.0";
         String result = instance.dodaj(a, b);
         assertEquals(expResult, result);
     }
